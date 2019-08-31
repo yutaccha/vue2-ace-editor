@@ -71,7 +71,7 @@ module.exports = {
         var lang = this.lang||'text';
         var theme = this.theme||'chrome';
 
-        require('brace/ext/emmet');
+//         require('brace/ext/emmet');
 
         var editor = vm.editor = ace.edit(this.$el);
 
